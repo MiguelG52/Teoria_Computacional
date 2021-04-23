@@ -35,7 +35,7 @@ int posicion(char c){
     //Si el caracter es no pertenece al arreglo, termina la ejeción del programa
     //sino regresa la columna que se va a recorrer
     for (int i = 0; i < cantidadSimbolos; i++) if(alfabeto[i] == c) return i;
-    printf("\nError: Caracter no forma parte del alfabeto");
+    printf("\nError: Cadena no forma parte del alfabeto");
     exit(0);
 }
 //Evalua cadena ingresada palabra por palabra
