@@ -1,6 +1,6 @@
 import Title from "./components/Title";
 import Layout from "./layout";
-import {IncisoA,IncisoB, IncisoD} from './views';
+import {IncisoA,IncisoB} from './views';
 function App() {
 
   return (
@@ -9,7 +9,6 @@ function App() {
       <Title title="Practica 2: Automatas Finitos"/>
       <IncisoA/>
       <IncisoB/>
-      <IncisoD/>
 
 
       </div>

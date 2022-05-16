@@ -28,7 +28,7 @@ const a = () => {
     <div className='card'>
       
       <form onSubmit={handleSubmit} className='flex flex-col items-center gap-5'>
-        <label>a) Tengo que guardar los cambios</label>
+        <label>a) Automata que Reconoce numeros reales</label>
         <input type="text" className='border-2 w-full' value={string} onChange={(e)=> setString(e.target.value)}/>
         
         {
