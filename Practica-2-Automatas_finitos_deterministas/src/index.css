@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .title{
+      @apply text-3xl text-green-500 uppercase font-bold;
+  }
+  .card{
+    @apply m-5 rounded-xl shadow-2xl border-2 p-5;
+  }
+  .btn{
+    @apply bg-green-500 p-3 w-1/3 text-white font-semibold rounded-lg hover:bg-green-700
+  }
+  .msg-exito{
+    @apply bg-green-500 text-white p-2 rounded-lg;
+  }
+  .msg-error{
+    @apply bg-red-600 text-white p-2 rounded-lg; 
+  }
+}
